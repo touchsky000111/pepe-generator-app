@@ -1,0 +1,20 @@
+.listItem {
+  border-radius: 20px;
+  padding: 5px 20px;
+
+  a {
+    color: #999;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  &.selected {
+    background-color: black;
+
+    a {
+      color: #fff;
+    }
+  }
+}

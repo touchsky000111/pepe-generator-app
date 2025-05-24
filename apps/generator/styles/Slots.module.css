@@ -1,0 +1,43 @@
+.container {
+  background-color: white;
+}
+
+.boxList {
+  height: 100%;
+  list-style: none;
+  display: flex;
+}
+
+.boxList li {
+  align-items: center;
+  display: flex;
+  font-size: 3em;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.boxList div, .boxList img {
+  height: 400px;
+  width: 400px;
+}
+
+.spin {
+  transform: translateX(-7600px);
+  transition: filter 1s ease-in-out, transform 3s ease-in-out;
+}
+
+.spin2 {
+  transform: translateX(7800px);
+}
+
+.spin3 {
+  transform: translateX(0px);
+  transition: filter 1s ease-in-out, transform 3s ease-in-out;
+}
+
+.result img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
